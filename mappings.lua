@@ -20,6 +20,8 @@ return {
     ["<leader>b"] = { name = "Buffers" },
     -- quick save
     -- ["<C-s>"] = { ":w!<cr>", desc = "Save File" },  -- change description but the same command
+    ["<C-d>"] = {"<C-d>zz", desc = "scroll down and keep the cursor in the middle"},
+    ["<C-u>"] = {"<C-u>zz", desc = "scroll up and keep the cursor in the middle"},
   },
   t = {
     -- setting a mapping to false will disable it
